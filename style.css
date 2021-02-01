@@ -1,0 +1,136 @@
+body{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: #16101A;
+	font-family: 'JetBrains Mono', monospace;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	flex-direction: column;
+	color: black;
+	animation: all ;
+}
+
+.wrap{
+	text-align: center;
+	background-color: lightgray;
+ 	margin: auto;
+  	width: 50%;
+  	padding: 10px;
+  	margin-top: 20px;
+  	display: flex;
+	margin: auto;
+	flex-direction: column;
+}
+
+/*main {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    scale: 1.25;
+}*/
+
+h1{
+	font-family: monospace;
+}
+
+h2{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+.back{
+  width: 900px;
+  height: 600px;
+  background-color: red;
+  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: example;
+  animation-duration: 100s;
+  z-index: -100;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:#26D840; left:29px; top:4px;}
+  50%  {background-color:#420092; right:274px; bottom:250px;}
+  75%  {background-color:#1fcd0f; left:453px; top:986px;}
+  100% {background-color:#7a7111; left:0px; top:0px;}
+}
+
+.back2{
+  width: 900px;
+  height: 600px;
+  background-color: red;
+  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: examplee;
+  animation-duration: 100s;
+  z-index: -101;
+}
+
+@keyframes examplee {
+  0%   {background-color:#61de2a ; right:0px; top:0px;}
+  25%  {background-color:darkblue; right:230px; top:304px;}
+  50%  {background-color:green; right:200px; top:467px;}
+  75%  {background-color:#42b3a3; right:956px; bottom:290px;}
+  100% {background-color:red; right:0px; top:0px;}
+}
+  
+.back3{
+  width: 900px;
+  height: 600px;
+  background-color: red;
+  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: exampleee;
+  animation-duration: 100s;
+  z-index: -99;
+}
+
+@keyframes exampleee {
+  0%   {background-color:#144678 ;left:422px; bottom:500px;}
+  25%  {background-color:lightgreen; left:290px; top:60px;}
+  50%  {background-color:#b4b71b; right:10040px; bottom:5895px;}
+  75%  {background-color:green; left:600px; top:729px;}
+  100% {background-color:#d802e4; right:0px; top:0px;}
+}
+
+.welcome{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+}
+
+.welcome2{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 3%;
+}
+
+.welcome3{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	margin-bottom: 10px;
+}
+
+
+
+
